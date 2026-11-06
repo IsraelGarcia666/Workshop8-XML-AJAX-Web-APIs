@@ -55,7 +55,7 @@ body.ws8 {
   border: 1px solid #10c298;
   border-radius: 8px;
   background-color: #05800f;
-  color: white;
+  color: rgb(225, 243, 245);
   cursor: pointer;
 }
 
@@ -69,12 +69,18 @@ body.ws8 {
   padding: 10px 12px;
   border: 1px solid #9aafa1;
   border-radius: 8px;
-  background-color: white;
-  color: #24352c;
+  background-color: rgba(255, 255, 255, 0.275);
+  color: #b8f3d4;
+}
+
+/* Colors for the dropdown menu options */
+.ws8 select option {
+  background-color: #1b2420;
+  color: #b8f3d4;
 }
 
 .ws8 :is(button, input, select, a):focus-visible {
-  outline: 3px solid #b46b00;
+  outline: 3px solid #00b4ae;
   outline-offset: 3px;
 }
 
@@ -83,7 +89,7 @@ body.ws8 {
   overflow-x: auto;
   border-radius: 10px;
   background-color: #22372b;
-  color: #e6f5eb;
+  color: #261ad5;
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -95,10 +101,10 @@ body.ws8 {
   padding: 20px;
   overflow-wrap: anywhere;
   overflow-x: auto;
-  border: 1px solid #cbd9d0;
+  border: 1px solid #06782e;
   border-left: 5px solid #39855a;
   border-radius: 8px;
-  background-color: white;
+  background-color: rgb(33, 39, 36);
 }
 
 .ws8 table {
@@ -109,13 +115,13 @@ body.ws8 {
 .ws8 th,
 .ws8 td {
   padding: 12px;
-  border: 1px solid #cbd9d0;
+  border: 1px solid #505853;
   text-align: left;
   vertical-align: top;
 }
 
 .ws8 th {
-  background-color: #e4eee7;
+  background-color: #4e5e52;
 }
 
 .ws8 img {
